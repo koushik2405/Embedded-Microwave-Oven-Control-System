@@ -171,4 +171,4 @@ Project documentation
 
 Presentation slides
 
-Demo video and screenshots
+ screenshots
