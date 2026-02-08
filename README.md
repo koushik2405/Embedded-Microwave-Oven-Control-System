@@ -1,9 +1,10 @@
-Project Overview
+Embedded Microwave Oven Control System
+Using PIC16F877A Microcontroller📌 Project Overview
 
 This project demonstrates the design and simulation of an Embedded Microwave Oven Control System using the PIC16F877A microcontroller.
 It simulates real microwave oven operations such as mode selection, timer control, keypad input, and LCD display, developed as part of an Embedded Systems Internship.
 
- Objectives
+. Objectives
 
 Understand embedded system architecture
 
@@ -15,7 +16,7 @@ Implement timer-based control logic
 
 Simulate real-time appliance behavior
 
- Hardware / Simulation Details
+. Hardware / Simulation Details
 
 Microcontroller: PIC16F877A
 
@@ -29,7 +30,7 @@ Compiler: XC8
 
 Simulation Tool: PICSimLab
 
- Software Features
+. Software Features
 
 Menu-driven user interface
 
@@ -41,12 +42,12 @@ Timer interrupt-based countdown
 
 Modular and structured C code
 
- System Design
+. System Design
 
 The system accepts user input through a keypad, processes it using the PIC16F877A microcontroller, and displays operational status on the LCD.
 Timer modules manage cooking duration, and the system stops automatically after completion.
 
- Project Folder Structure
+. Project Folder Structure
 Embedded-Microwave-Oven-Control-System/
 │
 ├── Code/                   # Embedded C source files
@@ -56,11 +57,11 @@ Embedded-Microwave-Oven-Control-System/
 ├── Project_Documentation/  # Project report and requirements
 └── README.md               # Project overview
 
- Simulation Output
+. Simulation Output
 
 Simulation screenshots and LCD output images are available in the Images folder.
 
- How to Use / Run the Project
+. How to Use / Run the Project
 
 Open the project in MPLAB X IDE
 
@@ -70,7 +71,7 @@ Load the generated HEX file into PICSimLab
 
 Run the simulation and observe the LCD output
 
- Applications
+. Applications
 
 Embedded home appliances
 
@@ -78,19 +79,15 @@ Educational embedded systems projects
 
 Microcontroller-based control systems
 
- Developed By
+. Developed By
 
 CH. Koushik Reddy
 B.Tech – Electronics & Communication Engineering
 
- Internship Acknowledgement
+. Internship Acknowledgement
 
 This project was developed as part of an Embedded Systems Internship, providing hands-on experience in microcontroller programming and real-time system design.
 
- Keywords
+. Keywords
 
 Embedded Systems, PIC16F877A, Microwave Oven, Microcontroller, PICSimLab, MPLAB, Embedded C
-
-
-
-If later you upload a demo video, I can update this in 2 lines only.
