@@ -1,5 +1,7 @@
 Embedded Microwave Oven Control System
-Using PIC16F877A Microcontroller📌 Project Overview
+Using PIC16F877A Microcontroller
+
+.Project Overview
 
 This project demonstrates the design and simulation of an Embedded Microwave Oven Control System using the PIC16F877A microcontroller.
 It simulates real microwave oven operations such as mode selection, timer control, keypad input, and LCD display, developed as part of an Embedded Systems Internship.
