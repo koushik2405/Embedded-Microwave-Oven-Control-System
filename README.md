@@ -1,175 +1,96 @@
+Project Overview
 
-Microwave Oven Control System – Embedded Systems Project
- Project Overview
+This project demonstrates the design and simulation of an Embedded Microwave Oven Control System using the PIC16F877A microcontroller.
+It simulates real microwave oven operations such as mode selection, timer control, keypad input, and LCD display, developed as part of an Embedded Systems Internship.
 
-This project demonstrates the design and simulation of a Microwave Oven control system using a PIC16F877A microcontroller.
-It is a menu-driven embedded application that simulates real microwave operations such as mode selection, timing control, start, pause, and stop functionalities.
+ Objectives
 
-The project was developed as part of an Embedded Systems Internship, focusing on Embedded C programming, peripheral interfacing, and real-time system behavior.
+Understand embedded system architecture
 
-Internship Objectives
+Program PIC microcontroller using Embedded C
 
-Understand fundamentals of Embedded Systems
+Interface matrix keypad and LCD
 
-Gain hands-on experience with microcontroller programming
+Implement timer-based control logic
 
-Learn peripheral interfacing (Keypad, CLCD, Timers)
+Simulate real-time appliance behavior
 
-Implement real-time embedded applications
-
-Simulate hardware behavior using PICSimLab
-
- Project Requirements
-
-Display menu options on CLCD
-
-Accept user inputs through Matrix Keypad
-
-Implement cooking modes:
-
-Macro
-
-Grill
-
-Convection
-
-Start / Stop
-
-Timer-based operation
-
-Visual feedback during cooking and completion
-
-Embedded System Description
-
-An embedded system is a dedicated computing system designed to perform a specific function within a larger system.
-In this project, the PIC16F877A microcontroller controls inputs, processes user commands, and drives outputs to simulate a microwave oven’s behavior.
-
-System Design
-Block Diagram
-
-Matrix Keypad → PIC16F877A → CLCD / Relays / Buzzer
-
- Microcontroller Board
+ Hardware / Simulation Details
 
 Microcontroller: PIC16F877A
 
-Clock Frequency: 20 MHz
+Input: Matrix Keypad
 
-Peripherals Used:
+Display: 16×2 Character LCD
 
-GPIO Ports
+Development Environment: MPLAB X IDE
 
-Timers
+Compiler: XC8
 
-External Interrupts
+Simulation Tool: PICSimLab
 
-CLCD Interface
+ Software Features
 
- Hardware & Software Tools
-Hardware Components
+Menu-driven user interface
 
-PIC16F877A Microcontroller
+Keypad-based time and mode selection
 
-Matrix Keypad
+LCD status display
 
-Character LCD (CLCD)
+Timer interrupt-based countdown
 
-Buzzer / Relays (Simulated)
+Modular and structured C code
 
-Software Tools
+ System Design
 
-MPLAB X IDE
+The system accepts user input through a keypad, processes it using the PIC16F877A microcontroller, and displays operational status on the LCD.
+Timer modules manage cooking duration, and the system stops automatically after completion.
 
-XC8 Compiler
+ Project Folder Structure
+Embedded-Microwave-Oven-Control-System/
+│
+├── Code/                   # Embedded C source files
+├── Images/                 # Simulation screenshots
+├── Schematic/              # Circuit schematic files
+├── Presentation/           # Internship presentation (PPT)
+├── Project_Documentation/  # Project report and requirements
+└── README.md               # Project overview
 
-PICSimLab
+ Simulation Output
 
-Embedded C
+Simulation screenshots and LCD output images are available in the Images folder.
 
-⚙️ Development Process
+ How to Use / Run the Project
 
-Requirement Analysis
+Open the project in MPLAB X IDE
 
-System Design & Block Diagram
+Compile the code using XC8 Compiler
 
-Peripheral Mapping
+Load the generated HEX file into PICSimLab
 
-Embedded C Coding
+Run the simulation and observe the LCD output
 
-Simulation using PICSimLab
+ Applications
 
-Testing and Debugging
+Embedded home appliances
 
-Documentation & Presentation
+Educational embedded systems projects
 
- Implementation Details
+Microcontroller-based control systems
 
-Menu displayed on CLCD for mode selection
-
-Keypad used for user input
-
-Timer interrupts manage cooking duration
-
-Status messages shown during operation
-
-Completion message displayed after timer expiry
-
- Simulation
-
-The complete project is simulated using PICSimLab, demonstrating:
-
-Power ON sequence
-
-Menu navigation
-
-Cooking operation
-
-Completion alert
-
- Simulation video is included in the repository.
-
- Key Learning Outcomes
-
-Embedded C programming
-
-Microcontroller peripheral interfacing
-
-Timer and interrupt handling
-
-Real-time embedded system design
-
-Simulation and debugging techniques
-
- Future Enhancements
-
-Real hardware implementation
-
-Temperature sensor integration
-
-Touch keypad interface
-
-IoT-based remote monitoring
-
- Author
+ Developed By
 
 CH. Koushik Reddy
 B.Tech – Electronics & Communication Engineering
-Embedded Systems Intern
 
  Internship Acknowledgement
 
-This project was developed as part of the Embedded Systems Internship under the guidance and training provided by:
+This project was developed as part of an Embedded Systems Internship, providing hands-on experience in microcontroller programming and real-time system design.
 
-Emertxe Information Technologies Pvt. Ltd.
+ Keywords
 
- Repository Contents
+Embedded Systems, PIC16F877A, Microwave Oven, Microcontroller, PICSimLab, MPLAB, Embedded C
 
-Embedded C source code
 
-PICSimLab simulation
 
-Project documentation
-
-Presentation slides
-
- screenshots
+If later you upload a demo video, I can update this in 2 lines only.
